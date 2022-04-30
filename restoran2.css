@@ -1,9 +1,298 @@
 .crveno {
-	color: red;
+	color: #9E2A2B;
 }
 body {
 	font-family : monospace;
+	background-color: #E3D5CA;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
 }
+
+
 .plavo{
-	color: blue;
+	color: #004E98;
 }
+.row{
+	width: 97vw;
+	background-color: #B97D60;
+	position: fixed;
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+.box2{
+	flex: 1 1 50%;
+}	
+
+.box1{
+	flex: 1 1 50%;
+	
+}
+.naziv{
+	margin-left: 10px;
+	margin-top: 5px;
+	font-family: Stencil Std, fantasy;
+	font-size: xx-large;
+	
+}
+.main .glavni-meni{
+	list-style: none;
+	text-align: right;
+	margin-top: 35px;
+	margin-right: 120px;
+	
+}
+
+.main .glavni-meni li a{
+	color: #F7EDE2;
+	 text-decoration: none;
+	 
+}
+
+.main .glavni-meni li{
+	display: inline-block;
+	margin-left: 15px;
+
+	
+}
+.ikona{
+	float: left;
+	margin-top: 0px;
+}
+.baner{
+	 position: relative;
+	 margin-top: 20px;
+	 display: block;
+     margin-left: auto;
+     margin-right: auto;
+     height: 700px;
+	 width: 70%;
+}
+.row2{
+	
+	background-color: #E3D5CA;
+}
+.center {
+  font-family: 	Impact, fantasy;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 80px;
+  letter-spacing: 10px;
+  color: #997b66;
+}
+
+.row3{
+	
+	background-color: #E3D5CA;
+	height: 200px;
+	padding-top: 50px;
+}
+.row4{
+	position: relative;
+	background-color: #E3D5CA;
+	display: flex;
+	height: 550px;
+}
+.onama { 
+	 text-align: center;
+	 font-size: 80px;
+	 font-family: 	American Typewriter, serif
+	
+}
+.box22{
+	position: relative;
+	flex: 1 1 50%;
+	background-color: ##E3D5CA;
+}
+.box21{
+	position: relative;
+	flex: 1 1 50%;
+	background-color: ##E3D5CA;
+}
+.papirstyle{
+	position: relative;
+	height: 400px;
+	width: 40%;
+	float: right; 
+	padding-top: 60px;
+	padding-right: 70px;
+	padding-bottom: 50px;
+	
+}
+.tape{ 
+	position: absolute;
+	top: 0px;
+	left: 520px;
+	height: 150px;
+	width: 30%
+	
+}
+.tape2{ 
+	position: absolute;
+	top: 390px;
+	left: 520px;
+	height: 150px;
+	width: 30%
+	
+}
+.center3 {
+  position: absolute;
+  top: 47%;
+  left: 73%;
+  transform: translate(-50%, -50%);
+  font-size: 15px;
+  color: #997b66;
+  text-align: justify;
+}
+.hrana{
+	position: relative;
+	height: 400px;
+	width: 30%;
+	padding-top: 60px;
+	padding-left: 70px;
+}
+.tape21{ 
+	position: absolute;
+	top: 0px;
+	left: 60px;
+	height: 150px;
+	width: 30%
+	
+}
+.tape22{ 
+	position: absolute;
+	top: 390px;
+	left: 60px;
+	height: 150px;
+	width: 30%
+	
+}
+.kuvar{
+	float: right; 
+	padding-top: 60px;
+	padding-right: 70px;
+	padding-bottom: 50px;
+	height: 400px;
+	width: 30%;
+}
+.tape31{ 
+	position: absolute;
+	top: 0px;
+	left: 60px;
+	height: 150px;
+	width: 30%
+	
+}
+.tape32{ 
+	position: absolute;
+	top: 390px;
+	left: 60px;
+	height: 150px;
+	width: 30%
+	
+}
+.tape311{ 
+	position: absolute;
+	top: 0px;
+	left: 560px;
+	height: 150px;
+	width: 30%
+	
+}
+.tape322{ 
+	position: absolute;
+	top: 390px;
+	left: 560px;
+	height: 150px;
+	width: 30%
+	
+}
+.papirstyle2{
+	position: relative;
+	height: 400px;
+	width: 40%; 
+	padding-top: 60px;
+	padding-left: 60px;
+	padding-bottom: 50px;
+	
+}
+.tape321{ 
+	position: absolute;
+	top: 0px;
+	left: 80px;
+	height: 150px;
+	width: 30%
+	
+}
+.tape332{ 
+	position: absolute;
+	top: 390px;
+	left: 80px;
+	height: 150px;
+	width: 30%
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+header{
+	background-color: ##E3D5CA;
+	height: 100px;
+	
+	
+}
+footer{
+	background-color: #B98B73;
+}
+section{
+	background-color: #F2F2F2;
+}
+footer{
+	background-color: #B98B73;
+	height: auto;
+	width: 97vw;
+	font-family: "Open Snas";
+	padding-top: 40px;
+	color: #fff;
+}
+.ffooter{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+}
+.radnovreme{
+	max-width: 500px;
+	margin: 10px auto;
+	font-size: 20px;
+	line-height: normal;
+}
+.ffooter-bottom{
+	width: 97vw;
+	padding: 20px 0;
+	text-align: center;
+	
+}
+.ffooter-bottom p{
+	font-size: 20px;
+	word-spacing: 2px;	
+}
+	
+	
