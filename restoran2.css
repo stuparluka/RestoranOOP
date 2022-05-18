@@ -16,8 +16,9 @@ body {
 }
 .row{
 	width: 97vw;
-	background-color: #B97D60;
 	position: fixed;
+	z-index: 2;
+	background-color: #B97D60;	
 	display: flex;
 	flex-wrap: wrap;
 	
@@ -50,7 +51,10 @@ body {
 	 text-decoration: none;
 	 
 }
-
+.restoranstupar{
+	color:#000000;
+	text-decoration: none;
+}
 .main .glavni-meni li{
 	display: inline-block;
 	margin-left: 15px;
@@ -62,7 +66,9 @@ body {
 	margin-top: 0px;
 }
 .baner{
+	
 	 position: relative;
+	 z-index: : 0;
 	 margin-top: 20px;
 	 display: block;
      margin-left: auto;
@@ -76,7 +82,9 @@ body {
 }
 .center {
   font-family: 	Impact, fantasy;
+  top: 0;
   position: absolute;
+  z-index: 0;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -86,13 +94,14 @@ body {
 }
 
 .row3{
-	
+	position: relative;
 	background-color: #E3D5CA;
 	height: 200px;
 	padding-top: 50px;
 }
 .row4{
-	position: relative;
+	
+	top: 0;
 	background-color: #E3D5CA;
 	display: flex;
 	height: 550px;
@@ -115,6 +124,7 @@ body {
 }
 .papirstyle{
 	position: relative;
+	top: 0;
 	height: 400px;
 	width: 40%;
 	float: right; 
@@ -236,8 +246,15 @@ body {
 	width: 30%
 	
 }
+.kontaktbox1{
+	position: relative;
+	flex: 1 1 50%;
+}
 
-
+.kontaktbox2{
+	position: relative;
+	flex: 1 1 50%;
+}
 
 
 
@@ -254,6 +271,7 @@ body {
 header{
 	background-color: ##E3D5CA;
 	height: 100px;
+	
 	
 	
 }
